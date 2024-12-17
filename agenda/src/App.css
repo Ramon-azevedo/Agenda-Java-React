@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(./assets/2023.08.28-23.23.34.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloco {
+    background-color: rgba(0, 0, 0, 0.584);
+    padding: 80px;
+    border-radius: 5px;
+    width: 40%;
+    height: 70%;
+    margin: 50px;
+
+
+    h1 {
+        text-align: center;
+    }
+
+    input {
+        padding: 12px;
+    }
+
+    button {
+        padding: 12px;
+    }
+
+    select  {
+        padding: 8px;
+        font-weight: bolder;
+    }
+
+    h3 {
+        padding-bottom: 0;
+        margin-bottom: 3px;
+    }
+}
+
+.allAgenda {
+    width: 100%;
+}
+
+.allAgenda .agn {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between; /* Espaça h3 e os botões */
+    align-items: center; /* Alinha verticalmente */
+}
+
+.allAgenda .agn h3 {
+    text-align: left;
+    margin: 0; /* Remove margens padrão */
+}
+
+.allAgenda .agn .btn {
+    display: flex; /* Coloca os botões lado a lado */
+    gap: 15px; /* Espaçamento entre os botões */
+}
+
+.allAgenda .agn .btn button {
+    margin: 0; /* Remove margens padrão dos botões */
+}
+.agn {
+    background-color: rgba(10, 19, 144, 0.571);
+    padding: 10px;
+}
+
+

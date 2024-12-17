@@ -1,0 +1,15 @@
+version: '4.36.0'
+services:
+  db:
+    image: mysql
+    container_name: backEndAgenda
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_TCP_PORT: 3314
+    ports:
+      - "3314:3314"
+    volumes:
+      - agendaDataLite:/var/lib/mysql
+
+volumes:
+  agendaDataLite:
